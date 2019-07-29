@@ -1,6 +1,20 @@
 # Introduction
 
-The voting data for each State is extracted from the States reported results for the 2016 General Election, as well as the voter registration data.  The candidates from the two dominant parties votes are reported, the candidates from other parties are combined into a single value, "All_others".   
+The voting data for each State is extracted from the States reported results for the 2016 General Election, as well as the voter registration data.  The candidates from the two dominant parties votes are reported, the candidates from other parties are combined into a single value, "All_others".
+
+It's a work in progress. When the State is finished being processed the data will be pushed to the repo.
+
+# Fields
+
+candidate	: string
+votes	: (number)
+state	: (string)
+county : (string)
+longitude	: (float) point data
+latitude	(float) point data
+registered_voters : (number)  Count as of November 2016, each state
+county_voter_ratio	: (float)  votes/registered_voters
+state_voter_ratio : (float) votes/state total registered voters
 
 # Usage
 
