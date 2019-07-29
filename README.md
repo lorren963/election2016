@@ -6,15 +6,15 @@ It's a work in progress. When the State is finished being processed the data wil
 
 # Fields
 
-candidate	: string
-votes	: (number)
-state	: (string)
-county : (string)
-longitude	: (float) point data
-latitude	(float) point data
-registered_voters : (number)  Count as of November 2016, each state
-county_voter_ratio	: (float)  votes/registered_voters
-state_voter_ratio : (float) votes/state total registered voters
+candidate	: string <br>
+votes	: (number) <br>
+state	: (string) <br>
+county : (string) <br>
+longitude	: (float) point data <br>
+latitude	(float) point data <br>
+registered_voters : (number)  Count as of November 2016, each state <br>
+county_voter_ratio	: (float)  votes/registered_voters <br>
+state_voter_ratio : (float) votes/state total registered voters <br>
 
 # Usage
 
